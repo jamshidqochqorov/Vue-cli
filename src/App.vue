@@ -1,12 +1,22 @@
 <template>
-<h1>Hello</h1>
-  <h1>Hello 2</h1>
+  <div class="wrapper">
+    <Header/>
+      <div class="wrapper-content">
+        <div class="container">
+         <router-view/>
+        </div>
+      </div>
+    <Footer/>
+  </div>
 </template>
 
 
 <script>
-export default {
 
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+export default {
+  components: {Footer, Header},
 }
 </script>
 <style lang="scss">
