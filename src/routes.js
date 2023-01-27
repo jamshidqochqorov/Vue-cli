@@ -3,7 +3,7 @@ import home from './pages/home'
 import about from './pages/about'
 import NotFound from './pages/notfound'
 const routers = createRouter({
-    history:createWebHashHistory(),
+    history:createWebHistory(),
     routes:[
         {
             path:'/',

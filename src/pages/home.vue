@@ -30,14 +30,14 @@ export default {
           title:'Wizzard',
           desc:'Wizzard,Wizzard,Wizzard,Wizzard',
           lvl:4,
-          img:require('@/images/archer.png')
+          img:require('@/images/wizzard.png')
         },
         {
           id:3,
-          title:'Wots',
-          desc:'Wots,Wots,Wots,Wots,Wots',
+          title:'Goblin',
+          desc:'Goblin,Goblin,Goblin',
           lvl:3,
-          img:require('@/images/archer.png')
+          img:require('@/images/goblin.png')
         },
 
       ]
