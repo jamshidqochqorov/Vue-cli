@@ -9,6 +9,7 @@
         <div class="card-body">
           <slot></slot>
         </div>
+    <router-link :to="`/${alias}`">See more</router-link>
   </div>
 </template>
 
@@ -24,6 +25,9 @@ props:{
     required:true
   },
   img:{
+    type:String
+  },
+  alias:{
     type:String
   }
 }
